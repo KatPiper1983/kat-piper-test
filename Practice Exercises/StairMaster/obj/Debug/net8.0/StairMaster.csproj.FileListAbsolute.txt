@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\bin\Debug\net8.0\StairMaster.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\bin\Debug\net8.0\StairMaster.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\bin\Debug\net8.0\StairMaster.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\bin\Debug\net8.0\StairMaster.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\bin\Debug\net8.0\StairMaster.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\refint\StairMaster.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\StairMaster.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\StairMaster\obj\Debug\net8.0\ref\StairMaster.dll

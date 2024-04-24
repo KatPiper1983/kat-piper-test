@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\bin\Debug\net8.0\IntroToVariables.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\bin\Debug\net8.0\IntroToVariables.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\bin\Debug\net8.0\IntroToVariables.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\bin\Debug\net8.0\IntroToVariables.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\bin\Debug\net8.0\IntroToVariables.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\refint\IntroToVariables.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\IntroToVariables.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week1-CS-Basics\IntroToVariables\obj\Debug\net8.0\ref\IntroToVariables.dll

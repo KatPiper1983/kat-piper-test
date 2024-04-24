@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\bin\Debug\net8.0\ClassesEx.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\bin\Debug\net8.0\ClassesEx.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\bin\Debug\net8.0\ClassesEx.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\bin\Debug\net8.0\ClassesEx.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\bin\Debug\net8.0\ClassesEx.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\refint\ClassesEx.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ClassesEx.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week2-CS-Fundamentals\ClassesEx\obj\Debug\net8.0\ref\ClassesEx.dll

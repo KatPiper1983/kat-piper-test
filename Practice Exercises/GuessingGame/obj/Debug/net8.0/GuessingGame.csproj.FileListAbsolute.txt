@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\bin\Debug\net8.0\GuessingGame.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\bin\Debug\net8.0\GuessingGame.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\bin\Debug\net8.0\GuessingGame.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\bin\Debug\net8.0\GuessingGame.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\bin\Debug\net8.0\GuessingGame.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\refint\GuessingGame.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\GuessingGame.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\obj\Debug\net8.0\ref\GuessingGame.dll
