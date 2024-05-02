@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\bin\Debug\net8.0\BankAccount.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\bin\Debug\net8.0\BankAccount.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\bin\Debug\net8.0\BankAccount.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\bin\Debug\net8.0\BankAccount.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\bin\Debug\net8.0\BankAccount.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\refint\BankAccount.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\BankAccount.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\BankAccount\obj\Debug\net8.0\ref\BankAccount.dll

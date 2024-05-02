@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\bin\Debug\net8.0\MethodGames.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\bin\Debug\net8.0\MethodGames.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\bin\Debug\net8.0\MethodGames.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\bin\Debug\net8.0\MethodGames.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\bin\Debug\net8.0\MethodGames.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\refint\MethodGames.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\MethodGames.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\MethodGames\obj\Debug\net8.0\ref\MethodGames.dll
