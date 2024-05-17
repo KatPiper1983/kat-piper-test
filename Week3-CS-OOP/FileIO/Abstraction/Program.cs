@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Abstraction;
+
+
 using System;
 
 class Program
@@ -28,6 +30,28 @@ class Program
         bugs.MakeSound();
         bugs.Sleep();
         bugs.EatPlant();
+        IHerbivore b = new Bunny();
+        b.EatPlant();
+
+        Animal[] animals = new Animal[4];
+
+        animals[0] = d;
+        animals[1] = c;
+        animals[2] = bugs;
+
+        ICarnivore[] carnivores = new ICarnivore[3];
+
+        carnivores[0] = d;
+        carnivores[1] = c;
+       // carnivores[2] = bugs; //not a carnivore, cannot add it to carnivore array
+
+       IAdorable[] adorables = new IAdorable[3];
+
+       adorables[0] = c;
+       adorables[1] = bugs;
+
+       TeddyBear teddyBear = new();
+       adorables[2] = teddyBear;
 
 
 

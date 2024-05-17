@@ -101,14 +101,14 @@ Console.WriteLine("_______________");
 //Build a square out of "*" of whatever size we want
 
 int size = 10;
-
+//Builds a number of rows = size
 for (int i = 1; i <=size; i++)
-{
+{   //Builds ONE row
     for (int j = 1; j<=size; j++)
     {
         Console.Write("* ");
     }
-    Console.WriteLine();
+    Console.WriteLine();//sends code to the next row
 }
 Console.WriteLine("_____________");
 // Staircase Challenge

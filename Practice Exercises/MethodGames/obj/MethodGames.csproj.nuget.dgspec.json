@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj": {}
+    "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj": {}
   },
   "projects": {
-    "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj": {
+    "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj",
+        "projectUniqueName": "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj",
         "projectName": "MethodGames",
-        "projectPath": "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj",
+        "projectPath": "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\MethodGames.csproj",
         "packagesPath": "C:\\Users\\U1J482\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\obj\\",
+        "outputPath": "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Practice Exercises\\MethodGames\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\U1J482\\AppData\\Roaming\\NuGet\\NuGet.Config"

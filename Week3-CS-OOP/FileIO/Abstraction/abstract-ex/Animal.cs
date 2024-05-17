@@ -1,3 +1,5 @@
+namespace Abstraction;
+
 abstract class Animal
 
 

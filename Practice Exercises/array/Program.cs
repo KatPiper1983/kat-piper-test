@@ -8,7 +8,7 @@ class Program
         //find the largest number in the array of values
 
         //need to check each value in the  array
-        int max = 0;
+       /* int max = 0;
         foreach(int value in array)
         {
             if(value > max)
@@ -35,8 +35,31 @@ class Program
         for(int i = str.Length -1; i>=0; i--)
         {
             reverse += string[i]
+        }*/
+        //System.Console.WriteLine(Reverse("FreaksAndGeeks"));
+
+        string s = Console.ReadLine();
+
+        foreach(char c in s)
+        {
+            Console.WriteLine(c-'a'+1);
+            
         }
 
+    }
+    //Reverse String Method()
+        public static string Reverse(string Input)
+    {
+        char[] charArray = Input.ToCharArray();//converts string to character array
+        string reversedString = String.Empty; //Declaring an empty string
 
+        //Iterating each character from right to left
+        for(int i = charArray.Length-1; i>-1; i--)
+        {
+            //append each character to the reversedString
+            reversedString += charArray[i];
+        }
+        //Return the reversed string
+        return reversedString;
     }
 }

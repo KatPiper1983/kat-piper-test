@@ -1,4 +1,6 @@
-class Cat : Animal, ICarnivore
+namespace Abstraction;
+
+class Cat : Animal, ICarnivore, IAdorable
 {
     public int Value { get; set; }
 

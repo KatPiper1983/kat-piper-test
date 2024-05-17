@@ -1,0 +1,15 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\bin\Debug\net8.0\YouTubeExercises.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\bin\Debug\net8.0\YouTubeExercises.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\bin\Debug\net8.0\YouTubeExercises.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\bin\Debug\net8.0\YouTubeExercises.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\bin\Debug\net8.0\YouTubeExercises.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\refint\YouTubeExercises.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\YouTubeExercises.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Practice Exercises\YouTubeExercises\obj\Debug\net8.0\ref\YouTubeExercises.dll

@@ -1,4 +1,6 @@
-class Bunny : Animal, IHerbivore
+namespace Abstraction;
+
+class Bunny : Animal, IHerbivore, IAdorable
 {
     public override void MakeSound()
     {

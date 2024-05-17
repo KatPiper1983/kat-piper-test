@@ -72,6 +72,63 @@ public static void LargestNumber()
     
 }
 
+public static int rockGame(int b, int s, int t)
+{
+    //Track the number of rocks that each takes out
+    int steveRocks = 0;
+    int tommyRocks = 0;
+
+    //Get the weird edge cases out of the way
+    if(b == 0)
+    {
+        return 0;
+    }
+
+    //Taking involves:
+    //Taking out the rocks for that person
+    //Simultaneously check if they can take out a full set of rocks
+    //If rocks left > 0, move to next person's turn
+
+    //Steve's turn
+    if(b > s)
+    {
+        b -= s;
+        steveRocks += s;
+    }
+    else
+    {
+        steveRocks += b;
+        //Game over
+        return steveRocks;
+    }
+
+    //Tommy's turn
+     if(b > t)
+    {
+        b -= t;
+        tommyRocks += t;
+    }
+    else
+    {
+        tommyRocks += b;
+        //Game over
+        return tommyRocks;
+    }
+
+
+
+    int min = intArray[0];
+
+    foreach(int num in intArray)
+        {
+            if(num < min)
+            min = num;
+        }
+        return min;
+
+
+}
+
 }
 
 

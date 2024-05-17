@@ -1,3 +1,5 @@
+namespace Abstraction;
+
 interface ICarnivore
 {
      public int Value {get; set;}

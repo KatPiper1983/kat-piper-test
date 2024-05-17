@@ -10,11 +10,11 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Week2-CS-Fundamentals/ClassesEx/bin/Debug/net8.0/ClassesEx.dll",
+            "program": "${workspaceFolder}/Week 6-Frameworks/MovieApp/bin/Debug/net8.0/MovieApp.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Week2-CS-Fundamentals/ClassesEx",
+            "cwd": "${workspaceFolder}/Week 6-Frameworks/MovieApp",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
