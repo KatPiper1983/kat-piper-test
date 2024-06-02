@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Week2-CS-Fundamentals/ClassesEx/ClassesEx.sln",
+                "${workspaceFolder}/Week 6-Frameworks/MovieApp/MovieApp.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],

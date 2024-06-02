@@ -13,19 +13,34 @@ class MovieService
                 - we like to have the app ALWAYS flow Up and Down one Layer at a time
 
     */
-    MovieRepo mr = new();
+    MovieRepo mr;
+    public MovieService(MovieRepo mr)
+    {
+        this.mr = mr;
+    }
     //m is the movie we want to attempt to check in
-    public Movie Checkin(Movie m)
+    public Movie? Checkin(Movie m)
     {
 
-    if (m.Available || m.ReturnDate ==0)
-    {
-        System.Console.WriteLine("Movie currently not checked out");
-        return null; //movie doesn't get checked in
+        if (m.Available || m.ReturnDate ==0)
+        {
+            System.Console.WriteLine("Movie currently not checked out");
+            return null; //movie doesn't get checked in
+        }
+        
+        
+
+        //Update the fields
+        m.Available = true;
+        m.ReturnDate = 0;
+        //Make these changes permanent in the data storage
+        mr.UpdateMovie(m);
+
+        return m;
     }
-    }
+    
     //m is the movie we want to attempt to check out
-    public Movie Checkout(Movie m)
+    public Movie? Checkout(Movie m)
     {
         //Lets first check to see if the Movie is Available - OR lets return 
         //null if its not available - get that out of the way
@@ -42,7 +57,7 @@ class MovieService
             m.ReturnDate = DateTimeOffset.UtcNow.ToUnixTimeSeconds() + (60*60*48);
             // Make sure to update the data storage with these changes
             mr.UpdateMovie(m);
-            return new(); //choosing to send back the checked out movie
+            return m; //choosing to send back the checked out movie
         }
         else
         {

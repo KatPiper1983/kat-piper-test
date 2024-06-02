@@ -4,19 +4,30 @@ class Program
 {
     static void Main(string[] args)
     {
-       int a = 5;
-       int b = 3; 
-       int c = 4;
-    if ((a + b + c > 10) && (a == b))
-    {
-        Console.WriteLine("The answer is greater than 10");
-        Console.WriteLine("And the first number is equal to the second");
-    }
-    else
-    {
-        Console.WriteLine("The answer is not greater than 10");
-        Console.WriteLine("Or the first number is not equal to the second");
-    }
+      var names = new string []  {"Kat", "Ana", "Felipe"};
+
+      names = [..names, "Damian"];
+      
+       foreach (var name in names)
+         {
+          Console.WriteLine($"Hello {name.ToUpper()}!");
+         }
+
+     
+     
+      
+      
+      
+      
+       //hold for later 
+     /* int counter = 10;
+      do
+      {
+        System.Console.WriteLine(counter);
+        counter++;
+      }
+      while (counter < 5);
+        */
 
 
 

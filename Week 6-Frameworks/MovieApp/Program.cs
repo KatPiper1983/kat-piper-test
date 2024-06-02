@@ -3,12 +3,122 @@ using System.Runtime.InteropServices;
 
 class Program
 {
-    static MovieService ms = new();
+    static MovieService ms;
+    static UserService us;
+    static User? currentUser = null;
     static void Main(string[] args)
     {
-         
+         string path = @"C:\Users\U1J482\OneDrive - Government Employees Insurance Company\Desktop\movie-app-db.txt";
+        string connectionString = File.ReadAllText(path);
+
+        System.Console.WriteLine(connectionString); //remove later, this is to test connection
+
+        UserRepo ur = new(connectionString);
+        us = new(ur);
+        
+        MovieRepo mr = new();
+        ms = new(mr);
+
+        //Lets just quickly test the Repo all by itself - and then if it works we can assume
+        //nothing else changed -> therefore it should integrate cleanly into the 
+
+       /* List <User> allUsers = ur.GetAllUsers() ?? [];
+        if(allUsers != null)
+        {
+            //print all users
+            foreach(User user in allUsers)
+            {
+                System.Console.WriteLine(user);
+            }
+        }
+        else
+        {
+            System.Console.WriteLine("Get All Failed.");
+        }*/
         //Going to start off with the call to Main Menu still
+       // MainMenu();
+       InitMenu();
+    }
+      private static void InitMenu()
+    {
+        System.Console.WriteLine("Welcome to the Movie App!");
+        bool keepGoing = true;
+        while (keepGoing)
+        {
+            System.Console.WriteLine("Please Pick an Option Down Below:");
+            System.Console.WriteLine("=================================");
+            System.Console.WriteLine("[1] Login");
+            System.Console.WriteLine("[2] Register");
+            System.Console.WriteLine("[0] Quit");
+            System.Console.WriteLine("=================================");
+
+            int input = int.Parse(Console.ReadLine() ?? "0");
+            //Same Validation method copied over
+            input = ValidateCmd(input, 2);
+
+            keepGoing = DecideInitOption(input); //Slightly different method.
+        }
+    }
+     private static bool DecideInitOption(int input)
+    {
+        switch (input)
+        {
+            case 1:
+                Login(); break;
+            case 2:
+                Register(); break;
+            case 0:
+            default:
+                //If option 0 or anything else -> set keepGoing to false.
+                return false;
+        }
         MainMenu();
+
+        return true;
+    }
+     private static void Login()
+    {
+        while (currentUser == null)
+        {
+            System.Console.WriteLine("Please Enter Your Username: ");
+            string username = Console.ReadLine() ?? "";
+
+            System.Console.WriteLine("Please Enter Your Password: ");
+            string password = Console.ReadLine() ?? "";
+
+            //Setting the currentUser variable signifies Logging in. If Login() fails it will remain null.
+            currentUser = us.Login(username, password);
+            if (currentUser == null)
+                System.Console.WriteLine("Login Failed. Please Try Again.");
+        }
+
+        //Now that they are logged in -> send them to Main Menu.
+        MainMenu();
+        //When this MainMenu ends, so does this calling of Login() which means go
+        //back to InitMenu().
+    }
+     private static void Register()
+    {
+        System.Console.WriteLine("Please Enter a New Username: ");
+        string username = Console.ReadLine() ?? "";
+        //Could Add some validation here to loop if Username is empty or taken.
+
+        System.Console.WriteLine("Please Enter a New Password: ");
+        string password = Console.ReadLine() ?? "";
+        //Could Add some validation here to loop if Password is empty or not long enough.
+
+        //Lets not set an ID and assume their Role to be 'user'
+        //My Register method chose a different tactic of passing in the whole User
+        User? newUser = new(0, username, password, "user");
+        newUser = us.RegisterUser(newUser); //should return the new User.
+        if (newUser != null)
+        {
+            System.Console.WriteLine("New User Registered!");
+        }
+        else
+        {
+            System.Console.WriteLine("Registration Failed! Please Try Again!");
+        }
     }
 
     private static void MainMenu()

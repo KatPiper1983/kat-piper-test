@@ -1,0 +1,33 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\appsettings.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Week 7- ASP.Net.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Week 7- ASP.Net.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Week 7- ASP.Net.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Week 7- ASP.Net.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Week 7- ASP.Net.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.csproj.AssemblyReference.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.AssemblyInfoInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.AssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.csproj.CoreCompileInputs.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.sourcelink.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets\msbuild.Week 7- ASP.Net.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets\msbuild.build.Week 7- ASP.Net.props
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Week 7- ASP.Net.props
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Week 7- ASP.Net.props
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\scopedcss\bundle\Week 7- ASP.Net.styles.css
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- .E740BA70.Up2Date
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\refint\Week 7- ASP.Net.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\Week 7- ASP.Net.genruntimeconfig.cache
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week 7- ASP.Net\obj\Debug\net8.0\ref\Week 7- ASP.Net.dll

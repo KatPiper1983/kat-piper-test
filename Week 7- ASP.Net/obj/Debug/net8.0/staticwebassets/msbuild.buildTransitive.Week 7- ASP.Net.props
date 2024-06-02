@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Week 7- ASP.Net.props" />
+</Project>
