@@ -5,17 +5,14 @@ CREATE TABLE [User] (
 	Role VARCHAR(50) NOT NULL CHECK(Role in ('user', 'admin'))
 	);
 
-	Drop table Book
+	Drop table Books
 
 	CREATE TABLE Books (
 	Id INT IDENTITY PRIMARY KEY,
 	Title VARCHAR(75) NOT NULL,
 	Author VARCHAR(50) NOT NULL,
 	Fiction BIT,
-	LocationsId INT,
-	CONSTRAINT FK_LocationsBooks FOREIGN KEY (LocationsID)
-		REFERENCES Locations(Id)
-	);
+		);
 
 	Drop table [Location]
 
@@ -35,6 +32,6 @@ INSERT INTO [User] VALUES ( 'jonathan', 'pass2', 'user'),
 ('admin', 'pass3', 'admin');
 SELECT * FROM [User];
 
-Insert INTO Books VALUES ('East of Eden', 'John Steinbeck', 1, 1);
+Insert INTO Books VALUES ('East of Eden', 'John Steinbeck', 1);
 
 Insert INTO Locations Values ('Kat', 'Piper', '1411 Buckner St.', 'Fredericksburg', 'VA', '22401', 'kpiper@geico.com');
