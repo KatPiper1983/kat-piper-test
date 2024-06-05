@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <!-- Internal -->
+    <style>
+        p {
+            font-size: xx-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .intro{
+            color: red;
+            font-size: 60px;
+        }
+    </style>
+    <!-- External -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to My Profile</h1>
+    <!-- Inline CSS -->
+
+    <p class="intro" style="color: rgb(64, 64, 198);
+    background-color: chartreuse;">Hello! My name is Kat</p>
+    <p class="intro">Hello again!</p>
+
+    <span>Hello I am a inline element</span>
+    <span>Hello I am a inline element</span>
+    <span>Hello I am a inline element</span>
+
+    <h2> Kat P</h2>
+    <p>Hello! My name is Kat Piper, and I am a web developer.</p>
+    <a href="https://google.com">Visit my website https://google.com</a>
+
+    <br>
+
+    <img src="https://static.wikia.nocookie.net/universal-orlando/images/d/dc/BettyBoop.jpg/revision/latest?cb=20240218161309"> 
+
+    <br>
+
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds futterkiste</td>
+        </tr>
+    </table>
+
+    <form action="/submit-profile" method="post">
+        <label for="hobbies">Choose your hobbies:</label>
+        <select id="hobbies" name="hobbies" multiple>
+            <option value="coding">Coding</option>
+            <option value="reading">Reading</option>
+            <option value="gaming">Gaming</option>
+            <option value="traveling">Traveling</option>
+        </select>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

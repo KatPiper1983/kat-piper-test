@@ -4529,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Week 7- ASP.Net\\ASPWeb\\ASPWeb.csproj",
+      "projectUniqueName": "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Week 7- ASP.Net\\ASPWeb\\ASPWeb.csproj",
       "projectName": "ASPWeb",
-      "projectPath": "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Week 7- ASP.Net\\ASPWeb\\ASPWeb.csproj",
+      "projectPath": "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Week 7- ASP.Net\\ASPWeb\\ASPWeb.csproj",
       "packagesPath": "C:\\Users\\U1J482\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Week 7- ASP.Net\\ASPWeb\\obj\\",
+      "outputPath": "c:\\Users\\U1J482\\Revature\\TestProject\\kat-piper-test\\Week 7- ASP.Net\\ASPWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\U1J482\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4609,7 +4609,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

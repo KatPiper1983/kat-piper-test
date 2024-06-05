@@ -1,4 +1,4 @@
-using EfCoreExample.Models;
+using EFCoreExample.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EfCoreExample.Data

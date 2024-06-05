@@ -1,7 +1,8 @@
 using EfCoreExample.Data;
 using EFCoreExample.DTOs;
 using Microsoft.AspNetCore.Mvc;
-using EfCoreExample.Models;
+using EFCoreExample.Models;
+using EFCoreExample.Services;
 
 namespace EFCoreExample.Controllers
 {
@@ -12,11 +13,10 @@ namespace EFCoreExample.Controllers
         //appdbcontext is used to interact with our db
         //constructor is used by our dependency manager to inject it into our class
         //we don't have to instantiate the controller or provide the app db context into the constructor
-        private readonly AppDbContext _context;
-
-        public ProfilesController(AppDbContext context)
+        private readonly IProfileService _profileService;
+        public ProfilesController(IProfileService profileService)
         {
-            _context = context;
+            _profileService = profileService;
         }
         [HttpGet]
         public ActionResult<IEnumerable<ProfileDTO>> GetProfiles()
@@ -29,10 +29,10 @@ namespace EFCoreExample.Controllers
                             }).ToList();
                         return profiles;
         }
-        [HttpGet("{UserId}")]
-        public ActionResult<ProfileDTO> GetProfileById(int UserId)
+        [HttpGet("{ProfileId}")]
+        public ActionResult<ProfileDTO> GetProfileById(int ProfileId)
         {
-            var profile = _context.Profiles.Find(UserId);
+            var profile = _context.Profiles.Find(ProfileId);
             var profileDTO = new ProfileDTO
             {
                 Bio = profile.Bio,
@@ -44,20 +44,24 @@ namespace EFCoreExample.Controllers
         [HttpPost]
         public ActionResult<ProfileDTO> PostProfile(ProfileDTO profileDTO)
         {
+            var user = _context.Users.FirstOrDefault(u=>u.UserId == profileDTO.UserId);
             var profile = new Profile
             {
-                Bio = profileDTO.Bio
+                Bio = profileDTO.Bio,
+                UserId = user.UserId,
+                User = user
+
             };
             _context.Profiles.Add(profile);
             _context.SaveChanges();
 
-            return CreatedAtAction(nameof(GetProfileById), new { UserId = profile.UserId }, profileDTO);
+            return CreatedAtAction(nameof(GetProfileById), new { ProfileId = profile.ProfileId }, profileDTO);
         }
 
-        [HttpPut("{UserId}")]
-        public ActionResult<ProfileDTO> UpdateProfile(int UserId, ProfileDTO UpdatedProfile)
+        [HttpPut("{ProfileId}")]
+        public ActionResult<ProfileDTO> UpdateProfile(int ProfileId, ProfileDTO UpdatedProfile)
         {
-            var profile = _context.Profiles.FirstOrDefault(p => p.UserId == UserId);
+            var profile = _context.Profiles.FirstOrDefault(p => p.ProfileId == ProfileId);
             profile.Bio = UpdatedProfile.Bio;
 
             _context.Profiles.Update(profile);
@@ -66,10 +70,10 @@ namespace EFCoreExample.Controllers
             return Ok(UpdatedProfile);
         }
 
-        [HttpDelete("{UserId}")]
-         public IActionResult DeleteProfile(int UserId)
+        [HttpDelete("{ProfileId}")]
+         public IActionResult DeleteProfile(int ProfileId)
          {
-            var profile = _context.Profiles.FirstOrDefault(p => p.UserId == UserId);
+            var profile = _context.Profiles.FirstOrDefault(p => p.UserId == ProfileId);
             _context.Profiles.Remove(profile);
             _context.SaveChanges();
 

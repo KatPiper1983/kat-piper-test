@@ -1,6 +1,7 @@
 using EfCoreExample.Data;
-using EfCoreExample.Models;
+using EFCoreExample.Models;
 using EFCoreExample.DTOs;
+using EFCoreExample.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EFCoreExample.Controllers
@@ -12,57 +13,44 @@ namespace EFCoreExample.Controllers
         //appdbcontext is used to interact with our db
         //constructor is used by our dependency manager to inject it into our class
         //we don't have to instantiate the controller or provide the app db context into the constructor
-        private readonly AppDbContext _context;
+       // private readonly AppDbContext _context;
 
-        public UsersController(AppDbContext context)
+       /* public UsersController(AppDbContext context)
         {
             _context = context;
+        }*/
+        private readonly IUserService _userService;
+        public UsersController(IUserService userService)
+        {
+            _userService = userService;
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<UserDTO>> GetUsers()
         {
-            var users = _context.Users
-                            .Select(u => new UserDTO
-                            {
-                                UserId = u.UserId,
-                                Name = u.Name
-                            }).ToList();
-                        return users;
+            var users = _userService.GetAllUsers();
+            return Ok(users);
         }
         [HttpGet("{UserId}")]
         public ActionResult<UserDTO> GetUserById(int UserId)
         {
-            var user = _context.Users.Find(UserId);
-            var userDTO = new UserDTO
-            {
-                Name = user.Name,
-                UserId = user.UserId
-            };
-            return userDTO;
+            var user = _userService.GetUserById(UserId);
+            return user;
         }
 
         [HttpPost]
-        public ActionResult<UserDTO> PostUser(UserDTO userDTO)
+        public ActionResult<UserDTO> PostUser(UserDTO userDto)
         {
-            var user = new User
-            {
-                Name = userDTO.Name
-            };
-            _context.Users.Add(user);
-            _context.SaveChanges();
+            var user = _userService.CreateUser(userDto);
+        
 
-            return CreatedAtAction(nameof(GetUserById), new { UserId = user.UserId }, userDTO);
+            return CreatedAtAction(nameof(GetUserById), new { UserId = user.UserId }, userDto);
         }
 
         [HttpPut("{UserId}")]
         public ActionResult<UserDTO> UpdateUser(int UserId, UserDTO UpdatedUser)
         {
-            var user = _context.Users.FirstOrDefault(u => u.UserId == UserId);
-            user.Name = UpdatedUser.Name;
-
-            _context.Users.Update(user);
-            _context.SaveChanges();
+            _userService.UpdateUser(UserId, UpdatedUser);
 
             return Ok(UpdatedUser);
         }
@@ -70,9 +58,7 @@ namespace EFCoreExample.Controllers
         [HttpDelete("{UserId}")]
          public IActionResult DeleteUser(int UserId)
          {
-            var user = _context.Users.FirstOrDefault(u => u.UserId == UserId);
-            _context.Users.Remove(user);
-            _context.SaveChanges();
+            _userService.DeleteUser(UserId);
 
             return Ok();
          }

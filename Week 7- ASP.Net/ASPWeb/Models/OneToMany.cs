@@ -1,6 +1,6 @@
 using System.Net.Http.Headers;
 
-namespace EfCoreExample.Models
+namespace EFCoreExample.Models
 {
     public class Category
     {
@@ -21,7 +21,7 @@ namespace EfCoreExample.Models
         public int CategoryId { get; set;}
         public Category Category { get; set; }
 
-
+        
     }
 
 }

@@ -2,7 +2,7 @@ using System.Runtime;
 
 //Entity Framework requires us to 
 
-namespace EfCoreExample.Models
+namespace EFCoreExample.Models
 {
     //this file is holding our one to one relationship
     public class User

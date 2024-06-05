@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+    color: #ffffff;
+}
+
+.intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#Title:active{
+    font-size: 100px;
+}
+/* Box Model */
+/* refers to 4 parts of every element
+    Margin
+        -outermost part of the box model
+        -references how elements next next to eachother
+    Border
+        -boundary between padding and the margin
+        -used to introduce some kind of visual boundary
+    Padding
+        -space between the content and the border
+    Content
+        -content of the element itself
+        
+    not a good idea to use fixed widths or sizes
+    b/c most devices don't have the same resolution or the same width
+    Ex: mobile device is smaller than a laptop or pc monitor*/
+#Title{
+    width: 20px;
+    border-color: brown;
+    border-style: dotted;
+    border-width: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 200px 20px 20px 20px;
+}
