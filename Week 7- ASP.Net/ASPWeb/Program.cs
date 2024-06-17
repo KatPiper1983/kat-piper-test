@@ -13,7 +13,9 @@ builder.Services.AddSwaggerGen();
 
 // Register any new services into dependency container
 builder.Services.AddScoped<IUserService, UserService>();
-
+builder.Services.AddScoped<IProfileService, ProfileService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

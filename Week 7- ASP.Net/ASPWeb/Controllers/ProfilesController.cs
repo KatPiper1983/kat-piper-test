@@ -21,39 +21,21 @@ namespace EFCoreExample.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<ProfileDTO>> GetProfiles()
         {
-            var profiles = _context.Profiles
-                            .Select(p => new ProfileDTO
-                            {
-                                UserId = p.UserId,
-                                Bio = p.Bio
-                            }).ToList();
-                        return profiles;
+            var profiles = _profileService.GetAllProfiles();
+            return Ok(profiles);
         }
         [HttpGet("{ProfileId}")]
         public ActionResult<ProfileDTO> GetProfileById(int ProfileId)
         {
-            var profile = _context.Profiles.Find(ProfileId);
-            var profileDTO = new ProfileDTO
-            {
-                Bio = profile.Bio,
-                UserId = profile.UserId
-            };
-            return profileDTO;
+            var profile = _profileService.GetProfileById(ProfileId);
+            return profile;
         }
 
         [HttpPost]
         public ActionResult<ProfileDTO> PostProfile(ProfileDTO profileDTO)
         {
-            var user = _context.Users.FirstOrDefault(u=>u.UserId == profileDTO.UserId);
-            var profile = new Profile
-            {
-                Bio = profileDTO.Bio,
-                UserId = user.UserId,
-                User = user
-
-            };
-            _context.Profiles.Add(profile);
-            _context.SaveChanges();
+            var profile = _profileService.CreateProfile(profileDTO);
+        
 
             return CreatedAtAction(nameof(GetProfileById), new { ProfileId = profile.ProfileId }, profileDTO);
         }
@@ -61,11 +43,7 @@ namespace EFCoreExample.Controllers
         [HttpPut("{ProfileId}")]
         public ActionResult<ProfileDTO> UpdateProfile(int ProfileId, ProfileDTO UpdatedProfile)
         {
-            var profile = _context.Profiles.FirstOrDefault(p => p.ProfileId == ProfileId);
-            profile.Bio = UpdatedProfile.Bio;
-
-            _context.Profiles.Update(profile);
-            _context.SaveChanges();
+            _profileService.UpdateProfile(ProfileId, UpdatedProfile);
 
             return Ok(UpdatedProfile);
         }
@@ -73,9 +51,7 @@ namespace EFCoreExample.Controllers
         [HttpDelete("{ProfileId}")]
          public IActionResult DeleteProfile(int ProfileId)
          {
-            var profile = _context.Profiles.FirstOrDefault(p => p.UserId == ProfileId);
-            _context.Profiles.Remove(profile);
-            _context.SaveChanges();
+           _profileService.DeleteProfile(ProfileId);
 
             return Ok();
          }
