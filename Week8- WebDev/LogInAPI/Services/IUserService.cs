@@ -5,5 +5,5 @@ namespace LogInAPI.Services;
 
 public interface IUserService
 {
-    
+    Task<ActionResult<IEnumerable<UserDTO>>> GetAllUsers();
 }
