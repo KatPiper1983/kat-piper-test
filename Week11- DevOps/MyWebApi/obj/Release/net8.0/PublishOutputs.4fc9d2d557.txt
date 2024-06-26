@@ -1,0 +1,12 @@
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\MyWebApi.exe
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\appsettings.Development.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\appsettings.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\MyWebApi.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\MyWebApi.deps.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\MyWebApi.runtimeconfig.json
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\MyWebApi.pdb
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\Microsoft.OpenApi.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\U1J482\Revature\TestProject\kat-piper-test\Week11- DevOps\MyWebApi\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
